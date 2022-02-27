@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import MainComponent  from './components/MainComponent';
 
 function App() {
+  function trackingFunction() { console.log('I SHALL GET ALL OF YOU DATA') };
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <MainComponent showSmallText trackData={trackingFunction} submit={() => {console.log('CLICKED!')}}/>
       </header>
     </div>
   );

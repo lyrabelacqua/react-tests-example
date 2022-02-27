@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainComponent renders small text if the prop showSmallText is set to true 1`] = `
+<small>
+  small text
+</small>
+`;
